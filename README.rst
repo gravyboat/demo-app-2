@@ -4,8 +4,10 @@ demo-app-2
 
 .. note::
 
-    Please note that several states include other states which are NOT part of this repository. I have left them
-    available as examples that you can easily fill in, and some which you can omit.
+    Please note that several states include other states which are NOT part of this repository. 
+    I have left them available as examples that you can easily fill in, and some which you can omit.
+    In addition this repository is a companion to
+    `demo-app-1 <https://github.com/gravyboat/demo-app-1>`_.
 
 Setup with Vagrant
 ===================
@@ -58,7 +60,7 @@ Connecting to the system
 
 At this point the Flask app should be up and running and available at http://192.168.44.2:8080.
 If you have not brought up `demo-app-1 <https://github.com/gravyboat/demo-app-1>`_
-then Nginx requests to http://192.168.44.3 will not work and redirect to the Flask app.
+then Nginx requests to http://192.168.44.3 will not redirect to the Flask app.
 
 Available states
 ================
